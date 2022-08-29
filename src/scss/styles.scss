@@ -1,0 +1,74 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+body {
+    background-color: $primaryColor;
+    font-family: $font-family-sans-serif;
+}
+nav {
+    background-color: $thirdColor;
+}
+
+.mt-6 {
+    margin-top: $mt-6;
+}
+
+
+.friends_info_sticky {
+
+    a {
+        color: $primaryTextColor;
+        text-decoration: none;
+    }
+    .bold {
+        font-weight: 600;
+    }
+    .list-group-item {
+        border-color: #ffbe0b48;
+        padding: 10px 0px;
+    }
+}
+
+.profile {
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+    }
+    a {
+        color: $primaryTextColor;
+    }
+}
+
+.createPost {
+    // background-color: $secondaryColor;
+}
+
+
+
+.post_content {
+    max-width: 700px;
+    width: 100%;
+    background-color: $secondaryColor;
+    img {
+        height: 500px;
+        object-fit: cover;
+    }
+    button {
+        border-style: none;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}
+
+
+
+
+.secondaryTextColor {
+    color: $secondaryTextColor;
+}
+
+.primaryTextColor {
+    color: $primaryTextColor;
+}

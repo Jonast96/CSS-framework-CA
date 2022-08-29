@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>InstaBook</title>
   </head>
-  <body>
+  <body class="index">
     <nav class="navbar px-5 p-2 ps- mb-5 fixed-top">
       <div>
-        <a class="navbar-brand secondaryTextColor">InstaBook</a>
+        <a class="secondaryTextColor logo">InstaBook</a>
       </div>
       <div class="d-flex gap-2">
         <form class="form-inline">
@@ -23,7 +23,7 @@
         </form>
       </div>
       <div class="profile">
-        <a href="#">
+        <a href="login.html">
           Profile
           <img class="ms-2" src="/images/bæææ.jpg" alt="" />
         </a>
@@ -43,7 +43,7 @@
                 provident nesciunt, omnis, id eum?
               </p>
               <a
-                class="btn btn-primary"
+                class="btn btn-primary mb-2"
                 data-toggle="collapse"
                 href="#collapseExample"
                 role="button"
@@ -53,21 +53,19 @@
                 Open post editor
               </a>
               <div class="collapse" id="collapseExample">
-                <div class="card card-body">
+                <div class="card card-body mb-2 background_primary">
                   <div class="form-group">
                     <div class="d-flex justify-content-between">
                       <div>
-                        <label for="exampleFormControlTextarea1"
-                          >Create your post</label
-                        >
+                        <p class="primaryTextColor">Create your post</p>
                       </div>
                       <div>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width="25"
-                          height="25"
+                          width="30"
+                          height="30"
                           fill="currentColor"
-                          class="bi bi-paperclip"
+                          class="bi bi-paperclip primaryTextColor"
                           viewBox="0 0 25 25"
                         >
                           <path
@@ -77,9 +75,9 @@
                       </div>
                     </div>
                     <textarea
-                      class="form-control mt-2"
+                      class="form-control mt-2 background_secondary"
                       id="exampleFormControlTextarea1"
-                      rows="3"
+                      rows="10"
                     ></textarea>
                     <div class="d-flex justify-content-center mt-2">
                       <button class="btn btn-primary">Publish post</button>

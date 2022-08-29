@@ -1,35 +1,38 @@
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+.secondaryTextColor {
+    color: $secondaryTextColor;
+}
+
+.primaryTextColor {
+    color: $primaryTextColor;
+}
+
+.background_primary {
+    background-color: $primaryColor;
+}
+
+.background_secondary {
+    background-color: $secondaryColor;
+}
+
 
 body {
     background-color: $primaryColor;
     font-family: $font-family-sans-serif;
 }
 nav {
-    background-color: $thirdColor;
-}
-
-.mt-6 {
-    margin-top: $mt-6;
-}
-
-
-.friends_info_sticky {
-
     a {
-        color: $primaryTextColor;
+        cursor: pointer;
+    }
+    background-color: $thirdColor;
+    .logo {
         text-decoration: none;
-    }
-    .bold {
-        font-weight: 600;
-    }
-    .list-group-item {
-        border-color: #ffbe0b48;
-        padding: 10px 0px;
+        font-weight: 700;
+        font-size: 2rem;
     }
 }
-
 .profile {
     img {
         width: 40px;
@@ -41,34 +44,61 @@ nav {
     }
 }
 
-.createPost {
-    // background-color: $secondaryColor;
-}
 
+.index {
 
-
-.post_content {
-    max-width: 700px;
-    width: 100%;
-    background-color: $secondaryColor;
-    img {
-        height: 500px;
-        object-fit: cover;
-    }
-    button {
-        border-style: none;
-        background-color: rgba(255, 255, 255, 0);
+    
+    .mt-6 {
+        margin-top: $mt-6;
     }
 
+    .friends_info_sticky {
+
+        a {
+            color: $primaryTextColor;
+            text-decoration: none;
+        }
+        .bold {
+            font-weight: 600;
+        }
+        .list-group-item {
+            border-color: #ffbe0b48;
+            padding: 10px 0px;
+        }
+    }
+    
+
+    
+    
+    
+    
+    .post_content {
+        max-width: 700px;
+        width: 100%;
+        background-color: $secondaryColor;
+        img {
+            height: 500px;
+            object-fit: cover;
+        }
+        button {
+            border-style: none;
+            background-color: rgba(255, 255, 255, 0);
+        }
+    
+    }
+    
+    .collapse {
+        .card {
+            border-style: none;
+        }
+    }
+    
+}
+
+
+.login {
+    height: 100vh;
 }
 
 
 
-
-.secondaryTextColor {
-    color: $secondaryTextColor;
-}
-
-.primaryTextColor {
-    color: $primaryTextColor;
-}

@@ -10758,6 +10758,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.secondaryTextColor {
+  color: #FFBE0B;
+}
+
+.primaryTextColor {
+  color: rgb(255, 255, 255);
+}
+
+.background_primary {
+  background-color: #18191a;
+}
+
+.background_secondary {
+  background-color: #ebebeb;
+}
+
 body {
   background-color: #18191a;
   font-family: Roboto, sans-serif;
@@ -10766,21 +10782,13 @@ body {
 nav {
   background-color: #2e2e2e;
 }
-
-.mt-6 {
-  margin-top: 5rem;
+nav a {
+  cursor: pointer;
 }
-
-.friends_info_sticky a {
-  color: rgb(255, 255, 255);
+nav .logo {
   text-decoration: none;
-}
-.friends_info_sticky .bold {
-  font-weight: 600;
-}
-.friends_info_sticky .list-group-item {
-  border-color: rgba(255, 190, 11, 0.2823529412);
-  padding: 10px 0px;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .profile img {
@@ -10792,26 +10800,39 @@ nav {
   color: rgb(255, 255, 255);
 }
 
-.post_content {
+.index .mt-6 {
+  margin-top: 5rem;
+}
+.index .friends_info_sticky a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.index .friends_info_sticky .bold {
+  font-weight: 600;
+}
+.index .friends_info_sticky .list-group-item {
+  border-color: rgba(255, 190, 11, 0.2823529412);
+  padding: 10px 0px;
+}
+.index .post_content {
   max-width: 700px;
   width: 100%;
   background-color: #ebebeb;
 }
-.post_content img {
+.index .post_content img {
   height: 500px;
   object-fit: cover;
 }
-.post_content button {
+.index .post_content button {
   border-style: none;
   background-color: rgba(255, 255, 255, 0);
 }
-
-.secondaryTextColor {
-  color: #FFBE0B;
+.index .collapse .card {
+  border-style: none;
 }
 
-.primaryTextColor {
-  color: rgb(255, 255, 255);
+.login {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
